@@ -1,0 +1,11 @@
+.DS_Store
+.build/
+dist/
+*.xcodeproj/xcuserdata/
+.swiftpm/
+# registrazioni e trascrizioni di prova: contengono la tua voce / il tuo testo
+*.wav
+*.m4a
+*.jsonl
+out.csv
+cursore.csv
