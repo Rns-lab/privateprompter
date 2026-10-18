@@ -44,6 +44,7 @@ swift test
 ## Limiti noti
 
 - L'invisibilità usa `NSWindow.sharingType = .none`: dipende da come l'app di cattura legge lo schermo e dalla versione di macOS. Fai sempre il "Primo test consigliato" qui sopra prima di fidarti.
+- Verificato su macOS 26.6 registrando lo schermo con [Recordly](https://github.com/webadderallorg/Recordly): la registrazione cattura lo schermo e il pannello non compare. Non testato con altre app di cattura (QuickTime, Zoom, Meet, OBS).
 - Il testo del copione e la trascrizione restano in locale; l'app non apre connessioni di rete.
 
 ## Misurare il tracciamento
